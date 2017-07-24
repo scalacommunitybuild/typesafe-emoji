@@ -14,11 +14,6 @@ scalaVersion := scala212Version
 
 crossScalaVersions := Seq(scala212Version, scala211Version, scala210Version)
 
-bintrayOrganization := Some("typesafe")
-bintrayRepository := "ivy-releases"
-bintrayPackage := "emoji"
-bintrayReleaseOnPublish := false
-
 publishMavenStyle := false
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature", "-Xfatal-warnings")
